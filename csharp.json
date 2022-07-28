@@ -1,0 +1,65 @@
+{
+    "Entity Test Suite": {
+      "prefix": "ets",
+      "body": [
+        "namespace ${1:ProjectName}Tests.${2:Namespace};",
+        "",
+        "[TestFixture]",
+        "public class ${TM_FILENAME_BASE}",
+        "{",
+        "}"
+      ]
+    },
+  
+    "Entity Test Case": {
+      "prefix": "etc",
+      "body": [
+        "[Test]",
+        "public void ${1:TestCase}()",
+        "{",
+        "\t${2:ArrangementType} arrangements = Given${3:Arrange}();",
+        "\t${4:ResultType} result = When${5:Act}(arrangements);",
+        "\tThen${6:Assert}(result);",
+        "}",
+        "",
+        "private ${2} Given${3}()",
+        "{",
+        "}",
+        "",
+        "private ${4} When${5}(${2} arrangements)",
+        "{",
+        "}",
+        "",
+        "private void Then${6}(${4} result)",
+        "{",
+        "\tAssert.Pass();",
+        "}"
+      ]
+    },
+  
+    "Setup Controller Test": {
+      "prefix": "sct",
+      "body": [
+        "private ${1:ControllerType} _controller;",
+        "private FakeUnitOfWork _unitOfWork;",
+        "private List<IModel> _fakeData",
+        "",
+        "[SetUp]",
+        "public void SetUp()",
+        "{",
+        "\t_fakeData = MakeFakeData()",
+        "\t_unitOfWork = new FakeUnitOfWork(_fakeData);",
+        "\t_controller = new ${1}(_unitOfWork);",
+        "}",
+        "",
+        "private List<IModel> MakeFakeData()",
+        "{",
+        "\tIModel ${2:objectName}1 = new ${3:ModelClass}(${4:constructionArguments})",
+        "\tIModel ${2:objectName}2 = new ${3:ModelClass}(${5:constructionArguments})",
+        "\tIModel ${2:objectName}3 = new ${3:ModelClass}(${6:constructionArguments})",
+        "",
+        "return new List<IModel> {${2}1, ${2}2, ${2}3}",
+        "}"
+      ]
+    }
+  }
