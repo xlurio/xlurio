@@ -61,5 +61,41 @@
       "\treturn new List<IModel> {${2}1, ${2}2, ${2}3};",
       "}"
     ]
+  },
+
+  "Domain Model Interface": {
+    "prefix": "dni",
+    "body": [
+      "namespace ${1:ProjectNamespace}.Models;",
+      "",
+      "public interface IModel",
+      "{",
+      "}"
+    ]
+  },
+
+  "Domain Model Class": {
+    "prefix": "dmc",
+    "body": [
+      "namespace ${1:ProjectNamespace}.Models;",
+      "",
+      "public class ${TM_FILENAME_BASE} : IModel",
+      "{",
+      "\tpublic ${TM_FILENAME_BASE}()",
+      "\t{",
+      "\t}",
+      "}"
+    ]
+  },
+
+  "Domain Model Struct": {
+    "prefix": "dms",
+    "body": [
+      "namespace ${1:ProjectNamespace}.Models;",
+      "",
+      "public struct ${TM_FILENAME_BASE}",
+      "{",
+      "}"
+    ]
   }
 }
