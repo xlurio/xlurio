@@ -1,0 +1,147 @@
+{
+    "Abstract base class": {
+      "prefix": "abcs",
+      "body": ["class ${1:AbstractClassName}(ABC):", "\t${2:pass}"]
+    },
+  
+    "Abstract class method": {
+      "prefix": "acm",
+      "body": [
+        "@abstractmethod",
+        "def ${1:abstract_method_name}(self) -> ${2:return_type}:",
+        "\traise NotImplementedError()"
+      ]
+    },
+  
+    "Abstract read property": {
+      "prefix": "arp",
+      "body": [
+        "@property",
+        "@abstractmethod",
+        "def ${1:abstract_property_name}(self) -> ${2:property_type}:",
+        "\traise NotImplementedError()"
+      ]
+    },
+  
+    "Abstract read and write property": {
+      "prefix": "arwp",
+      "body": [
+        "@property",
+        "@abstractmethod",
+        "def ${1:abstract_property_name}(self) -> ${2:property_type}:",
+        "\traise NotImplementedError()",
+        "",
+        "@${1}.setter",
+        "@abstractmethod",
+        "def ${1}(self, value: ${2}) -> None:",
+        "\traise NotImplementedError()"
+      ]
+    },
+  
+    "Concrete class constructor": {
+      "prefix": "ccc",
+      "body": ["def __init__(self, ${1:parameter}):", "\tself._$1 = $1"]
+    },
+  
+    "Class property getter": {
+      "prefix": "cpg",
+      "body": ["def get_${1:property_name}(self):", "\treturn self._$1"]
+    },
+  
+    "Class property initialization": {
+      "prefix": "cpi",
+      "body": ["self.${1:property} = $1"]
+    },
+  
+    "Class property setter": {
+      "prefix": "cps",
+      "body": ["def set_${1:property_name}(self, $1):", "\tself._$1 = $1"]
+    },
+  
+    "Concrete class method": {
+      "prefix": "ccm",
+      "body": ["def ${1:method_name}(self) -> ${2:return_type}:", "\tpass"]
+    },
+  
+    "Class test case": {
+      "prefix": "ctc",
+      "body": [
+        "def test_${1:case}(self):",
+        "\t\"\"\"${2:test description}\"\"\"",
+        "\tarrangements = self._given_${3:arrange}()",
+        "\tresult = self._when_${4:act}(arrangements)",
+        "\tself._then_${5:assert}(result)",
+        "",
+        "def _given_${3}(self) -> ${6:arrangement_type}:",
+        "\tpass",
+        "",
+        "def _when_${4}(self, arrangements: ${6}) -> ${7:result_type}:",
+        "\tpass",
+        "",
+        "def _then_${5}(self, result: ${7}) -> None:",
+        "\tpass"
+      ]
+    },
+  
+    "Class test suite": {
+      "prefix": "cts",
+      "body": [
+        "import unittest",
+        "from ${1:module_to_test} import ${2:class_to_test}",
+        "",
+        "",
+        "class $2Tests(unittest.TestCase):",
+        "\tpass",
+        "",
+        "",
+        "if __name__ == '__main__':",
+        "\tunittest.main()"
+      ]
+    },
+  
+    "Declare concrete class": {
+      "prefix": "dcc",
+      "body": ["class ${1:ClassName}:", "\tpass"]
+    },
+  
+    "Declare custom exception": {
+      "prefix": "dce",
+      "body": ["class ${1:ExceptionName}Exception(Exception):", "\tpass"]
+    },
+  
+    "Function": {
+      "prefix": "func",
+      "body": ["def ${1:function_name}(${2:parameters}):", "\tpass"]
+    },
+  
+    "Read And Write Property": {
+      "prefix": "rwp",
+      "body": [
+        "@property",
+        "def ${1:property_name}(self) -> ${2:property_type}:",
+        "\treturn self._${1}",
+        "",
+        "@${1}.setter",
+        "def ${1}(self, value: ${2}) -> None:",
+        "\tself._${1} = value"
+      ]
+    },
+  
+    "Read And Write Property With Validation": {
+      "prefix": "rwpv",
+      "body": [
+        "@property",
+        "def ${1:property_name}(self) -> ${2:property_type}:",
+        "\treturn self._${1}",
+        "",
+        "@${1}.setter",
+        "def ${1}(self, value: ${2}) -> None:",
+        "\tif isinstance(value, ${2}):",
+        "\t\tself._${1} = value",
+        "",
+        "\traise ${3:TypeError}(",
+        "\t\t\"${4:Error message}\"",
+        "\t)"
+      ]
+    }
+  }  
