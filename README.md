@@ -1,6 +1,6 @@
 # Hi There!
 
-I'm Lucas Calegario, an entusiastic and self taught backend developer trying to start my career on technology. The language I have more experience is Python, but I'm currently adventuring my self on C# since it gain support for Linux.
+I'm Lucas Calegario, an entusiastic and self taught backend developer trying to start my career on technology. The language I have more experience with is Python, but I'm currently adventuring my self on C# since it received support for Linux.
 
 
 ## What Am I Up To?
