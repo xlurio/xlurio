@@ -5,7 +5,7 @@ I'm Lucas Calegario, an entusiastic and self taught backend developer trying to 
 
 ## What Am I Up To?
 
-Right now I'm building a REST API for managing accounts on paid services that are shared between a group so it become easier to manage the payments. If you want to check out or contribute, you can find it [here](https://github.com/xlurio/joint-account-manager-api)
+Right now I'm building a REST API for managing accounts on paid services that are shared between a group so it become easier to manage the payments. If you want to check out or contribute, you can find it [here](https://github.com/xlurio/joint-account-manager-api).
 
 
 ## What Can I Offer You?
