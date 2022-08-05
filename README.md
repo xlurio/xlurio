@@ -15,7 +15,7 @@ Besides a cup of tea, you could check the [HerbertistAPI](https://github.com/xlu
 
 ## Is There Some Way To Reach You?
 
-When you feel alone, remember that I always be in your heart... Or you could contact me on one of the following means:
+When you feel alone, remember, I will always be in your heart... Or you could contact me on one of the following means:
 - Email: lucas.c.calegario@outlook.com
 - LinkedIn: https://www.linkedin.com/in/lucas-matheus-corr%C3%AAa-calegario-0949b11b7/
 
