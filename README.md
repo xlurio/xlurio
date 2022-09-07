@@ -11,6 +11,7 @@ I'm also building a REST API for managing accounts on paid services that are sha
 ## What Can I Offer You?
 
 Besides a cup of tea, you could check the [Herodotus](https://github.com/xlurio/herodotus). The Herodotus is a package for fastening the integration between Scrapy spiders and SQLAlchemy, providing a faster development on scraping tools.
+
 Also, there's the [HerbertistAPI](https://github.com/xlurio/hebertist-api) (I'm a history person, judge me). The HerbertistAPI is a REST API for comparing prices of games between multiple virtual game stores for mere peasant like us who enjoy buying games with good deals.
 
 
