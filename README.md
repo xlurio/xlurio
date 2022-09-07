@@ -5,14 +5,13 @@ I'm Lucas Calegario, an entusiastic and self taught backend developer trying to 
 
 ## What Am I Up To?
 
-Right now I'm building a Python package for fast integration between Scrapy spiders and SQLAlchemy models. If you want to check out or contribute, you can find it [here](https://github.com/xlurio/herodotus).
-
 I'm also building a REST API for managing accounts on paid services that are shared between a group so it become easier to manage the payments. If you want to check out or contribute, you can find it [here](https://github.com/xlurio/joint-account-manager-api).
 
 
 ## What Can I Offer You?
 
-Besides a cup of tea, you could check the [HerbertistAPI](https://github.com/xlurio/hebertist-api) (I'm a history person, judge me). The HerbertistAPI is a REST API for comparing prices of games between multiple virtual game stores for mere peasant like us who enjoy buying games with good deals.
+Besides a cup of tea, you could check the [Herodotus](https://github.com/xlurio/herodotus). The Herodotus is a package for fastening the integration between Scrapy spiders and SQLAlchemy, providing a faster development on scraping tools.
+Also, there's the [HerbertistAPI](https://github.com/xlurio/hebertist-api) (I'm a history person, judge me). The HerbertistAPI is a REST API for comparing prices of games between multiple virtual game stores for mere peasant like us who enjoy buying games with good deals.
 
 
 ## Want To Find Me?
