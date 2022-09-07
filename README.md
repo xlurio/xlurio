@@ -15,7 +15,7 @@ Besides a cup of tea, you could check the [Herodotus](https://github.com/xlurio/
 Also, there's the [HerbertistAPI](https://github.com/xlurio/hebertist-api) (I'm a history person, judge me). The HerbertistAPI is a REST API for comparing prices of games between multiple virtual game stores for mere peasant like us who enjoy buying games with good deals.
 
 
-## Want To Find Me?
+## How To Find Me?
 
 When you feel alone, remember, I will always be in your heart... Or you could contact me on one of the following means:
 - Email: lucas.c.calegario@outlook.com
