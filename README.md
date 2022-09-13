@@ -21,6 +21,11 @@ When you feel alone, remember, I will always be in your heart... Or you could co
 - Email: lucas.c.calegario@outlook.com
 - LinkedIn: https://www.linkedin.com/in/lucas-matheus-corr%C3%AAa-calegario-0949b11b7/
 
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xlurio&layout=compact&hide=html" alt="Language usage percentage">
+  </a>
+</p>
 
 <!--
 **xlurio/xlurio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
