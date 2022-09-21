@@ -1,11 +1,6 @@
 # Hi There!
 
-I'm Lucas Calegario, an entusiast and self taught backend developer trying to start my career on technology. The language I have more experience with is Python, but I'm currently adventuring my self on C# since it received support for Linux.
-
-
-## What Am I Up To?
-
-I'm also building a REST API for managing accounts on paid services that are shared between a group so it become easier to manage the payments. If you want to check out or contribute, you can find it [here](https://github.com/xlurio/joint-account-manager-api).
+I'm Lucas Calegario, self taught and entusiast developer since adolescence. Expertise on developing REST APIs. Proeficent on several technologies as Java, Spring, Hibernate, Docker, SQL, PostgreSQL, among others.
 
 
 ## What Can I Offer You?
