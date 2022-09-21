@@ -23,7 +23,7 @@ When you feel alone, remember, I will always be in your heart... Or you could co
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xlurio&layout=compact&hide=html,python,vba" alt="Language usage percentage">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xlurio&layout=compact&hide=html,python,vba,ncis" alt="Language usage percentage">
   </a>
 </p>
 
