@@ -1,6 +1,6 @@
 # Hi There!
 
-I'm Lucas Calegario, self taught and entusiast developer since adolescence, trying to start my career in IT. Focus on REST APIs development. Proeficient on several technologies as Java, Spring, Hibernate, Docker, SQL, PostgreSQL, among others.
+I'm Lucas Calegario, self taught and entusiast developer since adolescence, trying to start my career in IT. Focus on REST APIs development. Proeficient on several technologies as Python, Django, FastAPI, Docker, SQL, PostgreSQL, among others.
 
 
 ## What Can I Offer You?
