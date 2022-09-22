@@ -5,7 +5,7 @@ I'm Lucas Calegario, self taught and entusiast developer since adolescence, tryi
 
 ## What Can I Offer You?
 
-Besides a cup of tea, there's the [RobinWould](https://github.com/xlurio/robinwould)(aha). RobinWould is a framework that allows fast and easy developing on scraping tools.
+Besides a cup of tea, there's the [RobinWould](https://github.com/xlurio/robinwould)(aha). RobinWould is framework for fast and easy development on web scraping tools based. With less than 10 lines of code you already have script ready to fish for data on the web.
 
 Also, there's the [Herodotus](https://github.com/xlurio/herodotus) is a package for fastening the integration between Scrapy spiders and SQLAlchemy, providing a faster development on scraping tools.
 
