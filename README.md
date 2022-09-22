@@ -9,7 +9,7 @@ Besides a cup of tea, there's the [RobinWould](https://github.com/xlurio/robinwo
 
 Also, there's the [Herodotus](https://github.com/xlurio/herodotus), a simple package for fastening the integration between Scrapy spiders and SQLAlchemy. With a few lines, it easily allows the data to be stored as soon as it gets scraped, providing a faster development for scraping tools.
 
-Last but not less important, the [HerbertistAPI](https://github.com/xlurio/hebertist-api) (I'm a history person, judge me) is a REST API for comparing prices of games between multiple virtual game stores for mere peasant like us who enjoy buying games with good deals.
+Last but not less important, the [HerbertistAPI](https://github.com/xlurio/hebertist-api) (I'm a history person, judge me) is a REST API made with the propose of making easier to us, mere peasants, to buy games with lower prices by comparing the price of a variety of games in multiple stores.
 
 
 ## How To Find Me?
