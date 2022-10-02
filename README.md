@@ -7,7 +7,7 @@ I'm Lucas Calegario, self taught and entusiast developer since adolescence, tryi
 
 Besides a cup of tea, there's the [AristotleAPI](https://github.com/xlurio/aristotle-api). AristotleAPI provides a smart management of students grades and absences for schools and colleges.
 
-The [RobinWould](https://github.com/xlurio/robinwould)(aha). RobinWould is framework for fast and easy development on web scraping tools based. With less than 10 lines of code you already have script ready to fish for data on the web.
+The [RobinWould](https://github.com/xlurio/robinwould)(aha). RobinWould is framework for fast and easy development on web scraping tools based on FastAPI. With less than 10 lines of code you already have script ready to fish for data on the web.
 
 Also, there's the [Herodotus](https://github.com/xlurio/herodotus), a simple package for fastening the integration between Scrapy spiders and SQLAlchemy. With a few lines, it easily allows the data to be stored as soon as it gets scraped, providing a faster development for scraping tools.
 
