@@ -1,6 +1,6 @@
 # Hi There!
 
-I'm Lucas Calegario, self taught and entusiast developer since adolescence, trying to start my career in IT. Focus on REST APIs development. Proeficient on several technologies as Python, Django, FastAPI, Docker, SQL, PostgreSQL, among others.
+Full-stack software developer designing and developing backend APIs and services using Python, Django and FastAPI since 2019.
 
 
 ## What Can I Offer You?
@@ -19,6 +19,7 @@ Last but not least, the [HerbertistAPI](https://github.com/xlurio/hebertist-api)
 When you feel alone, remember, I will always be in your heart... Or you could contact me on one of the following means:
 - Email: lucas.c.calegario@outlook.com
 - LinkedIn: https://www.linkedin.com/in/lucas-matheus-corr%C3%AAa-calegario-0949b11b7/
+- Twitter: https://twitter.com/calegariodev
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
