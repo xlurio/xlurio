@@ -5,7 +5,9 @@ Full-stack software developer designing and developing backend APIs and services
 
 ## What Can I Offer You?
 
-Besides a cup of tea, there's the [AristotleAPI](https://github.com/xlurio/aristotle-api). AristotleAPI provides a smart management of students grades and absences for schools and colleges.
+Besides a cup of tea, [Gee](https://github.com/xlurio/gee). Web platform using Google Maps APIs to find establishments by diet restrictions.
+
+There's the [AristotleAPI](https://github.com/xlurio/aristotle-api). AristotleAPI provides a smart management of students grades and absences for schools and colleges.
 
 The [RobinWould](https://github.com/xlurio/robinwould)(aha). RobinWould is framework for fast and easy development on web scraping tools based on FastAPI. With less than 10 lines of code you already have script ready to fish for data on the web.
 
